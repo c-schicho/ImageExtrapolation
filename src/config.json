@@ -1,0 +1,20 @@
+{
+  "challenge": false,
+  "training": true,
+  "gan_train": true,
+  "testing": false,
+  "load_model": true,
+  "img_path": "/home/christopherschicho/study/pip2/challenge/image_data",
+  "log_path": "/home/christopherschicho/study/pip2/challenge",
+  "sub_path": "/home/christopherschicho/study/pip2/challenge/supplements/example_testset.pkl",
+
+  "img_shape": 90,
+
+  "batch_size": 16,
+  "epochs": 100,
+  "l_rate": 1e-4,
+  "weight_decay": 1e-5,
+
+  "plot_at": 100,
+  "eval_at": 100
+}
